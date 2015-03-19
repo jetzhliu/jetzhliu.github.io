@@ -24,7 +24,7 @@ safe: true
 lsi: false
 gems:
   - jemoji
-  - jekyll-sitemap
+  # - jekyll-sitemap
 
 ...
 
