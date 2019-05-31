@@ -1,0 +1,1 @@
+{"version":3,"file":"about.a61a19f5.js","sources":["../../../src/routes/about.svelte"],"sourcesContent":["<script>\n\timport { owner } from \"../config\"\n</script>\n\n<svelte:head>\n\t<title>About | {owner}</title>\n</svelte:head>\n\n<h1>About this site</h1>\n\n<p>This is the 'about' page. There's not much here.</p>"],"names":["owner"],"mappings":"kOAKiBA,0ZAAAA"}
