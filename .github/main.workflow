@@ -14,5 +14,8 @@ action "GitHub Pages Deploy" {
   env = {
     BUILD_DIR = "__sapper__/export"
   }
-  secrets = ["GITHUB_TOKEN"]
+  secrets = [
+    "GITHUB_TOKEN",
+    "GH_PAT",
+  ]
 }
