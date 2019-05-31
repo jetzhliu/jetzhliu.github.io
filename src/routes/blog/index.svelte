@@ -7,6 +7,7 @@
 </script>
 
 <script>
+	import { owner } from "../../config"
 	export let posts;
 </script>
 
@@ -18,7 +19,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Blog | {owner}</title>
 </svelte:head>
 
 <h1>Recent posts</h1>

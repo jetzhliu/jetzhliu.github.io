@@ -32,8 +32,12 @@
 	}
 </style>
 
+<script>
+	import { owner } from "../config"
+</script>
+
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Home | {owner}</title>
 </svelte:head>
 
 <h1>Great success!</h1>

@@ -1,4 +1,6 @@
-# github actions
+---
+title: GitHub Actions
+---
 
 github actions 是 GitHub 官方的 `CI/CD` 框架，也可以认为是 `CI/CD` 的升级版。只要项目有动作的时候就会自动触发配置好的流程脚本。例如发布 npm 模块、issue 上有人提紧急 bug 的时候发送短信、构建项目并发布等等。
 GitHub Actions 可以自己创建、也可以共享（通过发布到[商店](https://github.com/marketplace?type=actions)）。

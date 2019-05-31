@@ -1,4 +1,5 @@
 <script context="module">
+	import { owner } from "../../config"
 	export async function preload({ params, query }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].html
@@ -54,7 +55,7 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{post.title} | Blog | {owner}</title>
 </svelte:head>
 
 <h1>{post.title}</h1>

@@ -1,5 +1,9 @@
+<script>
+	import { owner } from "../config"
+</script>
+
 <svelte:head>
-	<title>About</title>
+	<title>About | {owner}</title>
 </svelte:head>
 
 <h1>About this site</h1>
